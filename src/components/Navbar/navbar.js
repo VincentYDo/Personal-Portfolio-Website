@@ -1,8 +1,18 @@
-// import './navbar.css';
+import React from "react";
+import './navbar.css';
+
+// import photos at later time
 
 const Navbar = ()=>{
     return (
-        <h1>react is rendering this 'navbar'</h1>
+        <nav className="navbar">
+            <img src="/images/logo.png" alt="logo" />
+            <div className="homepageMenu">
+
+            </div>
+            <button className="homepageButton">
+                <img src="" alt='Contact Me Button'/>Contact Me</button>
+        </nav>
     );
 }
 

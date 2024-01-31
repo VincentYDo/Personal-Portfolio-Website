@@ -1,17 +1,22 @@
 import React from "react";
 import './navbar.css';
+import {Link} from 'react-scroll'
+import logo from '../../assets/logo.png';
+import contactImg from '../../assets/contactMeImg.png';
 
-// import photos at later time
 
 const Navbar = ()=>{
     return (
         <nav className="navbar">
-            <img src="/images/logo.png" alt="logo" />
+            <img src={logo}  alt="logo" className="logo"/>
             <div className="homepageMenu">
-
+                <Link className="homepageMenuItem">Home</Link>
+                <Link className="homepageMenuItem">About</Link>
+                <Link className="homepageMenuItem">Portfolio</Link>
+                <Link className="homepageMenuItem">Clients</Link>
             </div>
             <button className="homepageButton">
-                <img src="" alt='Contact Me Button'/>Contact Me</button>
+                <img src={contactImg} alt='contactMeImg' className='homepageMenuImg'/>Contact Me</button>
         </nav>
     );
 }

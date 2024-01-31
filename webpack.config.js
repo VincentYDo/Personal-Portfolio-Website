@@ -25,8 +25,15 @@ module.exports={
                 test: /\.(js|jsx)$/,   
                 exclude: /node_modules/,
                 use:  'babel-loader', 
-                
-            }
+            },
+            {
+                test:/\.(png|jpe?g|gif)$/i,
+                use:['file-loader'],
+            },
+            {
+                test:/\.(css|scss)$/,
+                use:['style-loader','css-loader']
+            },
         ]
     },
     plugins:[

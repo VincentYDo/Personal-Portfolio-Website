@@ -13,7 +13,8 @@ const LandingPage = () => {
                 <p className="landingPagePara">I am a dedicated and passionate software engineer, committed to <br/> crafting innovative solutions and continuously expanding my skill set to drive excellence in software development.</p>
                 <Link><button className="btn"><img src={envelope} alt="Hire Me" className="btnImg"></img>Hire Me</button></Link>
             </div>
-            <div className="Selfie"></div>
+            {/* <div className="Selfie"></div> */}
+            {/* placeholder for selfie adding later */}
         </section>
     )
 

@@ -1,5 +1,9 @@
 import React from "react";
 import './aboutMe.css';
+import webDesign from '../../assets/webDesign.png';
+import database from '../../assets/database.png';
+import security from '../../assets/security.png';
+import adaptation from '../../assets/adaptation.png';
 
 const AboutMe = () => {
     return (
@@ -8,28 +12,28 @@ const AboutMe = () => {
             <span className="aboutMeDescription">As a full-stack engineer, I bring expertise in React, JavaScript, HTML, CSS, Node.js, Express.js, and MongoDB. With proficiency across these technologies, I develop end-to-end solutions, integrating front-end interfaces with scalable back-end architectures. My commitment to staying updated ensures that I deliver efficient and innovative software solutions consistently.</span>
             <div className="aboutMeBars">
                 <div className="aboutMeBar">
-                    <img className="skillBarImg" src='' alt='Skill Picture'></img>
+                    <img className="skillBarImg" src={webDesign} alt='Skill Picture'></img>
                     <div className="skillBarText">
                         <h2>Web Design</h2>
                         <p>description of skill</p>
                     </div>
                 </div>
                 <div className="aboutMeBar">
-                    <img className="skillBarImg" src='' alt='Skill Picture'></img>
+                    <img className="skillBarImg" src={database} alt='Skill Picture'></img>
                     <div className="skillBarText">
                         <h2>Database Design</h2>
                         <p>description of skill</p>
                     </div>
                 </div>
                 <div className="aboutMeBar">
-                    <img className="skillBarImg" src='' alt='Skill Picture'></img>
+                    <img className="skillBarImg" src={security} alt='Skill Picture'></img>
                     <div className="skillBarText">
                         <h2>Security Implementation</h2>
                         <p>description of skill</p>
                     </div>
                 </div>
                 <div className="aboutMeBar">
-                    <img className="skillBarImg" src='' alt='Skill Picture'></img>
+                    <img className="skillBarImg" src={adaptation} alt='Skill Picture'></img>
                     <div className="skillBarText">
                         <h2>Agile Adaptation</h2>
                         <p>description of skill</p>

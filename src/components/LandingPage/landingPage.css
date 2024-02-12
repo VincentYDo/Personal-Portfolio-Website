@@ -1,9 +1,18 @@
-#intro{
+#landingPage{
     height: calc(100vh - 4rem);
     width: 100vw;
     max-width: 75rem;
     margin: 0 auto;
     overflow: hidden;
+    position: relative;
+}
+.selfie{
+    position: absolute;
+    z-index: -1;
+    top: -4rem;
+    right: 0;
+    object-fit: cover;
+    height: 100vh;
 }
 
 .landingPageContent{
@@ -46,4 +55,21 @@
     height: 1rem;
 }
 
-/* no css prepared for selfie img. Add after adding img  */
+@media screen and (max-width:840px) {
+    .selfie{
+        right: -1vw;
+    }
+    .landingPageContent{
+        font-size: 10vw;
+    }
+    .greeting{
+        font-size: 4.5vw;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .selfie{
+        right: -5vw;
+    }
+    
+}

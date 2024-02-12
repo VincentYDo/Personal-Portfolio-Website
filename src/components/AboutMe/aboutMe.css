@@ -7,4 +7,19 @@
     overflow: hidden;
     width: 100vw;
     max-width:65rem;
+    margin : 0 auto;
+}
+
+.aboutMeTitle {
+    font-size: 3rem;
+    font-weight: 800;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.aboutMeDescription {
+    font-weight: 500;
+    font-size: 1rem;
+    max-width: 50rem;
+    padding: 0 2rem;
 }

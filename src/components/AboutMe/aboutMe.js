@@ -15,28 +15,28 @@ const AboutMe = () => {
                     <img className="skillBarImg" src={webDesign} alt='Web Design'></img>
                     <div className="skillBarText">
                         <h2>Web Design</h2>
-                        <p>description of skill</p>
+                        <p>Description of skill and how it's good to hire me or something. More words to fill the space.</p>
                     </div>
                 </div>
                 <div className="aboutMeBar">
                     <img className="skillBarImg" src={database} alt='Database Design'></img>
                     <div className="skillBarText">
                         <h2>Database Design</h2>
-                        <p>description of skill</p>
+                        <p>Description of skill and how it's good to hire me or something. More words to fill the space.</p>
                     </div>
                 </div>
                 <div className="aboutMeBar">
                     <img className="skillBarImg" src={security} alt='Security Implementation'></img>
                     <div className="skillBarText">
                         <h2>Security Implementation</h2>
-                        <p>description of skill</p>
+                        <p>Description of skill and how it's good to hire me or something. More words to fill the space.</p>
                     </div>
                 </div>
                 <div className="aboutMeBar">
                     <img className="skillBarImg" src={adaptation} alt='Agile Adaptation'></img>
                     <div className="skillBarText">
                         <h2>Agile Adaptation</h2>
-                        <p>description of skill</p>
+                        <p>Description of skill and how it's good to hire me or something. More words to fill the space.</p>
                     </div>
                 </div>
             </div>

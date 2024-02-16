@@ -1,11 +1,18 @@
+* {
+    border-radius: 0.5rem;
+    max-width: 80vw;
+    
+}
+
 .cardImage>img{
     max-height: 120px;
     max-width: 120px;
-    /* object-fit: cover; */
+    object-fit: cover;
     padding: 1rem 1rem;
-}
+} 
+
 
 .cardText{
     padding: 1rem 1rem;
-    margin-top: 5rem;
+    
 }

@@ -1,12 +1,28 @@
+.card{
+    border-radius: 1.5rem;
+    border: 0cap;
+    background: blue;
+    border-style: solid;
+    border-color: white;
+    border-width: 4px 4px 4px 4px;
+    width: 80%;
+    height: 80vh;
+    /* margin-left: 3rem; */
+}
+
 .cardImage>img{
-    max-height: 120px;
-    max-width: 120px;
+    height: 50%;
+    width: 100%;
     object-fit: cover;
     padding: 1rem 1rem;
 } 
 
-
 .cardText{
-    padding: 1rem 1rem;
+    max-height: 50%;
+    background: black;
+}
+
+.cardText>h2{
+    padding-top: 1rem;
     
 }

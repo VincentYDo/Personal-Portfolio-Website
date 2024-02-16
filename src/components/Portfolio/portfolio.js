@@ -22,6 +22,7 @@ const Portfolio = ()=>{
             <span>My Portfolio</span>
             <div className="cardsContainer">
                 <Carousel 
+                containerClass="carouselContainer"
                 showDots={true}
                 draggable={true}
                 swipeable={true}

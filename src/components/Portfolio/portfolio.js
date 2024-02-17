@@ -29,7 +29,7 @@ const Portfolio = ()=>{
                 infinite={true}
                 removeArrowOnDeviceType={["tablet", "mobile"]}
                 // autoPlay={true}
-                autoPlaySpeed={2500}
+                autoPlaySpeed={3000}
                 pauseOnHover={true}
                 responsive={responsive} >
                     {cards}

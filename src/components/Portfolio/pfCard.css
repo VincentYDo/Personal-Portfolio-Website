@@ -1,7 +1,7 @@
 .card{
-    border-radius: 1.5rem;
+    border-radius: 0.75rem;
     border: 0cap;
-    background: white;
+    background: indigo;
     border-style: solid;
     border-color: orange;
     border-width: 4px 4px 4px 4px;
@@ -14,27 +14,33 @@
 }
 .cardImage{
     height: 50%;
+    width: 100%;
     border: 20% 20% 20% 20%;
-    flex: 1;
+    /* border-radius: 9999px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
 }
 
 .projectImg{
-    border-radius: 50% 50% 50% 50%;
-    height: 50%;
-    width: 100%;
-    object-fit: cover;
-    padding: 1rem 1rem;
-    background: indigo;
+    height: 150px;
+    width: 150px;
+    padding: 0.5rem 0.5rem;
+    background: white;
     border-radius: 9999px;
-} 
+    
+    
+    
+}   
 
 .cardText{
-    flex: 1;
     height: 50vh;
     background: black;
 }
 
 .cardText>h2{
-    padding-top: 1rem;
+    padding: 1rem;
     
 }

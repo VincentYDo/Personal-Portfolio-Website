@@ -28,10 +28,11 @@ const Portfolio = ()=>{
                 swipeable={true}
                 infinite={true}
                 removeArrowOnDeviceType={["tablet", "mobile"]}
-                autoPlay={false}
+                autoPlay={true}
                 autoPlaySpeed={2000}
                 pauseOnHover={true}
                 partialVisbile={false}
+                ssr={true}
                 responsive={responsiveSettings} >
                     {cards}
                     

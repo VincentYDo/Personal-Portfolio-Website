@@ -1,17 +1,16 @@
 .card{
-    border-radius: 0.75rem;
     border: 0cap;
-    background: indigo;
+    /* background: purple; */
     border-style: solid;
-    border-color: orange;
-    border-width: 5px 5px 5px 5px;
-    width: 40vw;
-    height: 75vh;
+    /* border-color: rgb(30, 30, 30); */
+    /* border-width: 5px 5px 5px 5px; */
+    width: 50vw;
+    height: 65vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-right: 5vw;
-    margin-left: 5vw;
+    /* margin-left: 5vw; */
     
 }
 /* .cardImage{
@@ -29,11 +28,8 @@
     object-fit: contain ;
     height: 100%;
     width: 100%;
-    padding: 0.5rem 0.5rem;
-    background: white;
-    /* border-radius: 9999px; */
-    
-    
+    /* padding: 0.5rem 0.5rem; */
+    background: white;    
     
 }   
 

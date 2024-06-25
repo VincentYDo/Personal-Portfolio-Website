@@ -1,6 +1,6 @@
 import React from "react";
 import './portfolio.css'
-import { data, responsive } from "./pfData";
+import { data, responsiveSettings } from "./pfData";
 import PfCard from "./pfCard";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
@@ -28,10 +28,11 @@ const Portfolio = ()=>{
                 swipeable={true}
                 infinite={true}
                 removeArrowOnDeviceType={["tablet", "mobile"]}
-                // autoPlay={true}
-                autoPlaySpeed={3000}
+                autoPlay={false}
+                autoPlaySpeed={2000}
                 pauseOnHover={true}
-                responsive={responsive} >
+                partialVisbile={false}
+                responsive={responsiveSettings} >
                     {cards}
                     
                 </Carousel>

@@ -1,9 +1,8 @@
-import kafkometryCardImg from '../../assets/portfolioPics/kafkometryCardImg.jpeg';
-import findMyFuelCardImg from '../../assets/portfolioPics/findMyFuelCardImg.png';
-import frenchieCardImg from '../../assets/portfolioPics/frenchieCardImg.jpeg';
-import scratchCardImg from '../../assets/portfolioPics/scratchCardImg.png';
-
-import frenchiesLandscape from '../../assets/portfolioPics/frenchiesLandscape.jpg'
+import monitoring from '../../assets/portfolioPics/monitoring.png'
+import gasStation from '../../assets/portfolioPics/gasStation.jpg'
+import bulldog from '../../assets/portfolioPics/bulldog.jpg'
+import gatheredPeople from '../../assets/portfolioPics/gatheredPeople.jpg'
+import websiteDesign from '../../assets/portfolioPics/websiteDesign.jpg'
 
 export const responsiveSettings = {
     superLargeDesktop: {
@@ -29,36 +28,31 @@ export const responsiveSettings = {
 export const data = [
     {   id:1,
         name: 'Kafkometry',
-        // img: kafkometryCardImg,
-        img: frenchiesLandscape,
+        img: monitoring,
         description: 'A web application that allows users to track target metrics in their Kafka Clusters.',
         techStack: ['React', 'JavaScript', 'HTML', 'CSS', 'Node.js', 'Express.js', 'Kafka', 'Docker', 'MongoDB'],
     },
     {   id:2,
         name: 'Find-My-Fuel',
-        // img: findMyFuelCardImg,
-        img: frenchiesLandscape,
+        img: gasStation,
         description: 'A web application that allows users to find the nearest fuel stations to them.',
         techStack: ['React', 'JavaScript', 'HTML', 'CSS', 'Node.js', 'Express.js', 'Kafka', 'Docker', 'MongoDB'],
     },
     {   id:3,
         name: ' Frenchies',
-        // img: frenchieCardImg,
-        img: frenchiesLandscape,
-        description: 'A web application that allows users to find local restaurants in their area.',
+        img: bulldog,
+        description: 'A doggy dating app meant to connect people based on the dog or dogs that they have.',
         techStack: ['React', 'JavaScript', 'HTML', 'CSS', 'Node.js', 'Express.js', 'Kafka', 'Docker', 'MongoDB'],
     },
     {   id:4,
         name: 'Scratch',
-        // img: scratchCardImg,
-        img: frenchiesLandscape,
-        description: 'A web application that allows users to find local restaurants in their area.',
+        img: gatheredPeople,
+        description: 'A web application meant to allow users to sign up for activities and receive notifications when the required number of people is reached.',
         techStack: ['React', 'JavaScript', 'HTML', 'CSS', 'Node.js', 'Express.js', 'Kafka', 'Docker', 'MongoDB'],
     },
     {   id:5,
         name: 'Online Portfolio',
-        // img: scratchCardImg,
-        img: frenchiesLandscape,
+        img: websiteDesign,
         description: 'Online portfolio created using React.js. Meant to showcase my frontend skills and prior work.',
         techStack: ['React', 'JavaScript', 'HTML', 'CSS', 'Node.js', 'Express.js', 'Kafka', 'Docker', 'MongoDB'],
     }

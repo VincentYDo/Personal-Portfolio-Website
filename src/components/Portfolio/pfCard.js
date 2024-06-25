@@ -6,14 +6,14 @@ const PfCard = (props)=>{
     return(
         <div className="card">
             <div className={props.cardId}>
-                <div className="cardImage">
-                    <img className="projectImg" src={props.img} alt="project pic"/>
-                </div>
-                <div className="cardText">
+                
+                <img className="projectImg" src={props.img} alt="project pic"/>
+                
+                {/* <div className="cardText">
                     <h2>{props.name}</h2>
                     <p>{props.description}</p>
-                    {/* <p>{props.techStack}</p> */}
-                </div>
+                    <p>{props.techStack}</p>
+                </div> */}
             </div>
 
         </div>

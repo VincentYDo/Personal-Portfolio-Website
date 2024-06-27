@@ -9,8 +9,8 @@ const PfCard = (props)=>{
                 <div className='imgWrap' >
                     <img className="projectImg" src={props.img} alt="project pic"/>
                     <h1 class='projectTitle'>{props.name}</h1>
-                    <p class='text2'>{props.description}</p>
-                    <p class='text3'>Tech Stack - {props.techStack}</p>
+                    <p class='projectDesc'>{props.description}</p>
+                    <p class='techStack'>Tech Stack - {props.techStack}</p>
                 </div>
             </div>
 

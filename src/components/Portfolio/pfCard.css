@@ -48,10 +48,13 @@
     right: 0;
     background: grey;
     /* opacity: 0; */
+    padding-top: 5rem;
+    font-size: 3rem;
     
 }
 
-.text2{
+
+.projectDesc{
     /* visibility: hidden; */
     position: absolute;
     top: 30%;
@@ -60,8 +63,9 @@
     right: 0;
     background: grey;
     /* opacity: 0; */
+    padding-top: 5rem;
 }
-.text3{
+.techStack{
     /* visibility: hidden; */
     position: absolute;
     top: 50%;
@@ -70,6 +74,7 @@
     right: 0;
     background: grey;
     /* opacity: 0; */
+    padding-top: 5rem;
 }
 
 .imgWrap:hover.imgWrap>p{

@@ -33,12 +33,14 @@
     
 }   
 
+
 .imgWrap{
     position: relative;
+    text-align: center;
+    display: inline-block;
 }
-
-.imgWrap>h2{
-    visibility: hidden;
+.projectTitle{
+    /* visibility: hidden; */
     position: absolute;
     top: 0;
     bottom: 0;
@@ -49,11 +51,28 @@
     
 }
 
-.imgWrap>p{
-    visibility: hidden;
+.text2{
+    /* visibility: hidden; */
+    position: absolute;
+    top: 30%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: grey;
+    /* opacity: 0; */
+}
+.text3{
+    /* visibility: hidden; */
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: grey;
+    /* opacity: 0; */
 }
 
-.imgWrap:hover.imgWrap>h2{
+.imgWrap:hover.imgWrap>p{
     visibility: visible;
-    opacity: 1;
+    opacity: 0.90;
 }

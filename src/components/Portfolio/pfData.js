@@ -42,7 +42,7 @@ export const data = [
         name: ' Frenchies',
         img: bulldog,
         description: 'A doggy dating app meant to connect people based on the dog or dogs that they have.',
-        techStack: ['React, ', 'JavaScript, ', 'HTML, ', 'CSS, ', 'Node.js, ', 'Express.js, ', 'MongoDB, ', 'OAuth, '],
+        techStack: ['React, ', 'JavaScript, ', 'HTML, ', 'CSS, ', 'Node.js, ', 'Express.js, ', 'MongoDB, ', 'OAuth'],
     },
     {   id:4,
         name: 'LFG - Looking For Groups',
@@ -53,7 +53,7 @@ export const data = [
     {   id:5,
         name: 'Online Portfolio',
         img: websiteDesign,
-        description: 'Online portfolio created using React.js. Meant to showcase my frontend skills and prior work.',
+        description: 'Online portfolio created using React.js and hosted on AWS.',
         techStack: ['React', 'JavaScript', 'HTML', 'CSS'],
     }
 

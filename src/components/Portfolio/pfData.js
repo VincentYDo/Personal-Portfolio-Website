@@ -54,7 +54,7 @@ export const data = [
         name: 'Online Portfolio',
         img: websiteDesign,
         description: 'Online portfolio created using React.js and hosted on AWS.',
-        techStack: ['React', 'JavaScript', 'HTML', 'CSS'],
+        techStack: ['React, ', 'JavaScript, ', 'HTML, ', 'CSS'],
     }
 
 ];

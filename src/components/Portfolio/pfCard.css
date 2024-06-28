@@ -40,14 +40,14 @@
     display: inline-block;
 }
 .projectTitle{
-    /* visibility: hidden; */
+    visibility: hidden;
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     background: grey;
-    /* opacity: 0; */
+    opacity: 0;
     padding-top: 5rem;
     font-size: 3rem;
     
@@ -55,26 +55,31 @@
 
 
 .projectDesc{
-    /* visibility: hidden; */
+    visibility: hidden;
     position: absolute;
     top: 30%;
     bottom: 0;
     left: 0;
     right: 0;
     background: grey;
-    /* opacity: 0; */
+    opacity: 0;
     padding-top: 5rem;
 }
 .techStack{
-    /* visibility: hidden; */
+    visibility: hidden;
     position: absolute;
-    top: 50%;
+    top: 60%;
     bottom: 0;
     left: 0;
     right: 0;
     background: grey;
-    /* opacity: 0; */
+    opacity: 0;
     padding-top: 5rem;
+}
+
+.imgWrap:hover.imgWrap>h1{
+    visibility: visible;
+    opacity: 1;
 }
 
 .imgWrap:hover.imgWrap>p{

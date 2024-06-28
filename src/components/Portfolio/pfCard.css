@@ -1,36 +1,23 @@
 .card{
     border: 0cap;
-    /* background: purple; */
+    background: rgb(30, 30, 30);
     border-style: solid;
-    /* border-color: rgb(30, 30, 30); */
-    /* border-width: 5px 5px 5px 5px; */
+    border-color: rgb(30, 30, 30);
     width: 50vw;
     height: 65vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     margin-right: 5vw;
-    /* margin-left: 5vw; */
     
 }
-/* .cardImage{
-    height: 50%;
-    width: 100%;
-    border: 20% 20% 20% 20%;
-    border-radius: 9999px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
-} */
 
 .projectImg{
     object-fit: contain ;
     height: 100%;
     width: 100%;
-    /* padding: 0.5rem 0.5rem; */
-    /* background: white;     */
-    
+   
 }   
 
 
@@ -68,8 +55,8 @@
 .techStack{
     visibility: hidden;
     position: absolute;
-    top: 60%;
-    bottom: 0;
+    top: 55%;
+    bottom: 5rem;
     left: 0;
     right: 0;
     background: grey;

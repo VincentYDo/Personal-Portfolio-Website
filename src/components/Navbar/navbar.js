@@ -4,16 +4,8 @@ import {Link, Events, animateScroll as scroll} from 'react-scroll'
 import logo from '../../assets/logo.png';
 import contactImg from '../../assets/contactMeImg.png';
 
-const scrollToBottom = ()=>{
-    scroll.scrollToBottom();
-}
-
 const scrollToTop = ()=>{
     scroll.scrollToTop();
-}
-
-const scrollTo = ()=>{
-    scroll.scrollTo(650)
 }
 
 
@@ -23,9 +15,8 @@ const Navbar = ()=>{
             <img src={logo}  alt="logo" className="logo"/>
             <div className="homepageMenu">
                 <Link className="homepageMenuItem" onClick={scrollToTop}>Home</Link>
-                <Link className="homepageMenuItem" onClick={scrollTo}>About</Link>
-                <Link className="homepageMenuItem">Portfolio</Link>
-                <Link className="homepageMenuItem">Clients</Link>
+                <Link className="homepageMenuItem" activeClass="active" to="aboutMe" spy={true} smooth={true} offset={-25}  duration={500}>About</Link>
+                <Link className="homepageMenuItem" activeClass="active" to="portfolio" spy={true} smooth={true} offset={-25}  duration={500}>Portfolio</Link>
             </div>
             <button className="homepageButton">
                 <img src={contactImg} alt='contactMeImg' className='homepageMenuImg'/>Contact Me</button>

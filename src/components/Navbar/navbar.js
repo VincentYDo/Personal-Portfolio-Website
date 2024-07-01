@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import './navbar.css';
-import {Link, Events, animateScroll as scroll} from 'react-scroll'
+import {Link,animateScroll as scroll} from 'react-scroll'
 import logo from '../../assets/logo.png';
 import contactImg from '../../assets/contactMeImg.png';
 
@@ -16,7 +16,7 @@ const Navbar = ()=>{
             <div className="homepageMenu">
                 <Link className="homepageMenuItem" onClick={scrollToTop}>Home</Link>
                 <Link className="homepageMenuItem" activeClass="active" to="aboutMe" spy={true} smooth={true} offset={-25}  duration={500}>About</Link>
-                <Link className="homepageMenuItem" activeClass="active" to="portfolio" spy={true} smooth={true} offset={-25}  duration={500}>Portfolio</Link>
+                <Link className="homepageMenuItem" activeClass="active" to="aboutMe" spy={true} smooth={true} offset={-25}  duration={500}>Portfolio</Link>
             </div>
             <button className="homepageButton">
                 <img src={contactImg} alt='contactMeImg' className='homepageMenuImg'/>Contact Me</button>

@@ -12,6 +12,10 @@ const scrollToTop = ()=>{
     scroll.scrollToTop();
 }
 
+const scrollTo = ()=>{
+    scroll.scrollTo(650)
+}
+
 
 const Navbar = ()=>{
     return (
@@ -19,7 +23,7 @@ const Navbar = ()=>{
             <img src={logo}  alt="logo" className="logo"/>
             <div className="homepageMenu">
                 <Link className="homepageMenuItem" onClick={scrollToTop}>Home</Link>
-                <Link className="homepageMenuItem">About</Link>
+                <Link className="homepageMenuItem" onClick={scrollTo}>About</Link>
                 <Link className="homepageMenuItem">Portfolio</Link>
                 <Link className="homepageMenuItem">Clients</Link>
             </div>

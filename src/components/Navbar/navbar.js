@@ -16,7 +16,8 @@ const Navbar = ()=>{
             <div className="homepageMenu">
                 <Link className="homepageMenuItem" onClick={scrollToTop}>Home</Link>
                 <Link className="homepageMenuItem" activeClass="active" to="aboutMe" spy={true} smooth={true} offset={-25}  duration={500}>About</Link>
-                <Link className="homepageMenuItem" activeClass="active" to="aboutMe" spy={true} smooth={true} offset={-25}  duration={500}>Portfolio</Link>
+                <Link className="homepageMenuItem" activeClass="active" to="portfolio" spy={true} smooth={true} offset={-25}  duration={500}>Portfolio</Link>
+                <Link className="homepageMenuItem" activeClass="active" to="" spy={true} smooth={true} offset={-25}  duration={500}>Online Profiles</Link>
             </div>
             <button className="homepageButton">
                 <img src={contactImg} alt='contactMeImg' className='homepageMenuImg'/>Contact Me</button>

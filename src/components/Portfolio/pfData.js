@@ -12,11 +12,11 @@ export const responsiveSettings = {
     },
     desktop: {
       breakpoint: { max: 1440, min: 800 },
-      items: 3
+      items: 2
     },
     tablet: {
       breakpoint: { max: 800, min: 464 },
-      items: 3
+      items: 2
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },

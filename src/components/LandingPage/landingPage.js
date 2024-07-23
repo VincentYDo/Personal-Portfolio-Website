@@ -2,7 +2,7 @@ import React from "react";
 import './landingPage.css';
 import {Link} from 'react-scroll';
 import envelope from '../../assets/envelope.jpg';
-import selfie from '../../assets/suitPic Background Removed.png';
+import selfie from '../../assets/DSC05201.jpg';
 
 const LandingPage = () => {
     return(

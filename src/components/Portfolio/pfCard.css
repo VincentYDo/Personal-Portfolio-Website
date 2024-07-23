@@ -67,9 +67,10 @@
 .imgWrap:hover.imgWrap>h1{
     visibility: visible;
     opacity: 1;
+    
 }
 
 .imgWrap:hover.imgWrap>p{
     visibility: visible;
-    opacity: 0.90;
+    opacity: 1;
 }

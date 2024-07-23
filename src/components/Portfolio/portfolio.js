@@ -34,11 +34,9 @@ const Portfolio = ()=>{
                 partialVisbile={false}
                 ssr={true}
                 responsive={responsiveSettings} >
-                    {cards}
-                    
+                    {cards}  
                 </Carousel>
             </div>
-
         </section>
     )
 }

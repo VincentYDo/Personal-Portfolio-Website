@@ -3,7 +3,16 @@
     flex-direction: column;
     text-align: center;
     background-color:cornflowerblue;
-    width: 50%;
+    /* width: 50%; */
+    /* height: 50vh; */
     margin-left: auto;
     margin-right: auto;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
 }

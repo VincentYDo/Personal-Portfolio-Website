@@ -15,7 +15,9 @@ const AboutMe = () => {
                     <img className="skillBarImg" src={webDesign} alt='Web Design'></img>
                     <div className="skillBarText">
                         <h2>Web Design</h2>
-                        <p>Description of skill and how it's good to hire me or something. More words to fill the space.</p>
+                        <p>I have developed various web page designs, utilizing CSS and TailwindCSS to create visually appealing and user-friendly interfaces. 
+                            These responsive designs ensure accessibility across all devices, providing a seamless experience for users.
+                        </p>
                     </div>
                 </div>
                 <div className="aboutMeBar">

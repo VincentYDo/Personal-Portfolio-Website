@@ -15,8 +15,10 @@ const AboutMe = () => {
                     <img className="skillBarImg" src={webDesign} alt='Web Design'></img>
                     <div className="skillBarText">
                         <h2>Web Design</h2>
-                        <p>I have developed various web page designs, utilizing CSS and TailwindCSS to create visually appealing and user-friendly interfaces. 
-                            These responsive designs ensure accessibility across all devices, providing a seamless experience for users.
+                        <p>I have developed various web page designs, 
+                            utilizing CSS and TailwindCSS to create visually appealing and user-friendly interfaces. 
+                            These responsive designs ensure accessibility across all devices, 
+                            providing a seamless experience for users.
                         </p>
                     </div>
                 </div>
@@ -25,7 +27,8 @@ const AboutMe = () => {
                         <h2>Database Design</h2>
                         <p>I have constructed SQL databases using PostgreSQL and NoSQL databases with MongoDB. 
                             Additionally, I have designed database schemas to efficiently organize and structure data
-                            resulting in easier manipulation and querying of that data.</p>
+                            resulting in easier manipulation and querying of that data.
+                        </p>
                     </div>
                     <img className="skillBarImg" src={database} alt='Database Design'></img>
                 </div>
@@ -43,8 +46,10 @@ const AboutMe = () => {
                 <div className="aboutMeBar">
                     <div className="skillBarText">
                         <h2>Agile Adaptation</h2>
-                        <p>Leveraging my expertise as a Professional Scrum Master, 
-                            I have applied agile methodology to the development of numerous applications.</p>
+                        <p>Drawing on my expertise as a Professional Scrum Master, 
+                            I have applied agile methodology to the development of numerous applications. 
+                            This approach has facilitated greater flexibility in adapting to changing stakeholder requirements.
+                        </p>
                     </div>
                     <img className="skillBarImg" src={adaptation} alt='Agile Adaptation'></img>
                 </div>

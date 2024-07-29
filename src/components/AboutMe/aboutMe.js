@@ -33,8 +33,10 @@ const AboutMe = () => {
                     <img className="skillBarImg" src={security} alt='Security Implementation'></img>
                     <div className="skillBarText">
                         <h2>Security Implementation</h2>
-                        <p>I have utilized various technologies for user authentication and security, 
-                            including bcrypt, JSON Web Tokens, and OAuth.
+                        <p>I have employed various technologies for user authentication and security, 
+                            such as bcrypt, JSON Web Tokens, and OAuth. 
+                            This approach enhances security, boosts performance, and ensures interoperability 
+                            between applications.
                         </p>
                     </div>
                 </div>

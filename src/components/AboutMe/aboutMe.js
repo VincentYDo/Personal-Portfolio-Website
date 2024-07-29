@@ -32,7 +32,9 @@ const AboutMe = () => {
                     <img className="skillBarImg" src={security} alt='Security Implementation'></img>
                     <div className="skillBarText">
                         <h2>Security Implementation</h2>
-                        <p>Description of skill and how it's good to hire me or something. More words to fill the space.</p>
+                        <p>I have utilized various technologies for user authentication and security, 
+                            including bcrypt, JSON Web Tokens, and OAuth.
+                        </p>
                     </div>
                 </div>
                 <div className="aboutMeBar">

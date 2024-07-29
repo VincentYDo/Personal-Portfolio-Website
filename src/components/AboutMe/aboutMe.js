@@ -41,7 +41,8 @@ const AboutMe = () => {
                     <img className="skillBarImg" src={adaptation} alt='Agile Adaptation'></img>
                     <div className="skillBarText">
                         <h2>Agile Adaptation</h2>
-                        <p>Description of skill and how it's good to hire me or something. More words to fill the space.</p>
+                        <p>Leveraging my expertise as a Professional Scrum Master, 
+                            I have applied agile methodology to the development of numerous applications.</p>
                     </div>
                 </div>
             </div>

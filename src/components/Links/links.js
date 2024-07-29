@@ -12,10 +12,10 @@ const Links = () => {
             </div>
             <div className="icons">
                 <a href="https://www.linkedin.com/in/vincentydo/" className="Icon">
-                    <img src={linkedinIcon} alt="linkedin" />
+                    <img src={linkedinIcon} alt="linkedin" className="mediaPic"/>
                 </a>
                 <a href="https://github.com/Vincent-Y-Do" className="Icon">
-                    <img src={githubIcon} alt="github"  />
+                    <img src={githubIcon} alt="github" className="mediaPic" />
                 </a>
             </div>
         </section>

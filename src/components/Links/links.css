@@ -14,11 +14,16 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    background-color: white;
+    background-color: rgb (30, 30, 30);
     
 }
 
 .linksHeader>h1{
     margin-bottom: 3rem;
     font-size: 3rem;
+}
+
+.mediaPic{
+    border-radius: 9999px;
+    
 }

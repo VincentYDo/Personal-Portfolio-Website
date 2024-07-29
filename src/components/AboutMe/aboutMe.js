@@ -24,7 +24,8 @@ const AboutMe = () => {
                     <img className="skillBarImg" src={database} alt='Database Design'></img>
                     <div className="skillBarText">
                         <h2>Database Design</h2>
-                        <p>Description of skill and how it's good to hire me or something. More words to fill the space.</p>
+                        <p>I have constructed SQL databases using PostgreSQL and NoSQL databases with MongoDB. 
+                            Additionally, I have designed database schemas to efficiently organize and structure data.</p>
                     </div>
                 </div>
                 <div className="aboutMeBar">

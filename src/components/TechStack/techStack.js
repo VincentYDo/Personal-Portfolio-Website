@@ -15,7 +15,7 @@ const techStack = () =>{
         speed: 2000,
         autoplay: true,
         autoplaySpeed:2000,
-        slidesToShow: 3,
+        slidesToShow: 7,
         slidesToScroll: 1,
         cssEase:'linear'
     }

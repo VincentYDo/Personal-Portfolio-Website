@@ -1,4 +1,19 @@
 #techStack{
     max-width: 50%;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
     
 }
+
+/* .h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    
+} */

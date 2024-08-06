@@ -17,13 +17,15 @@ const techStack = () =>{
         autoplaySpeed:2000,
         slidesToShow: 7,
         slidesToScroll: 1,
-        cssEase:'linear'
+        cssEase:'linear',
+        arrows: false,
+    
     }
 
 
     return(
         <section id="techStack">    
-            <h1>Languages, Frameworks, And Technologies</h1>
+            <span>Languages, Frameworks, And Technologies</span>
             <Slider {...settings}>
                 <div id="cssIcon">
                     <svg width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">

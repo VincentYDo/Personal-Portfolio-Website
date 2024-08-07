@@ -22,4 +22,13 @@
     
 }
 
+#linkedinIcon:hover{
+    transform: scale(1.5);
+
+}
+
+#githubIcon:hover{
+    transform: scale(1.5);
+}
+
 

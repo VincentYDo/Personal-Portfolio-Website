@@ -18,9 +18,10 @@
     
 }
 
-.linksHeader>h1{
+.linksHeader>span{
     margin-bottom: 3rem;
     font-size: 3rem;
+    font-weight: 800;
 }
 
 .mediaPic{

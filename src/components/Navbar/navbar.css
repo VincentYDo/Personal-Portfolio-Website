@@ -23,7 +23,7 @@
     cursor: pointer;
 }
 .homepageMenuItem:hover{
-    color: blue;
+    color: cyan;
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid blue;
+    border-bottom: 3px solid cyan;
 }

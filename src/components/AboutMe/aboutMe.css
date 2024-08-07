@@ -44,15 +44,11 @@
     object-fit: cover;
     height: 5rem;
     width: 5rem;
-    margin-right: 2rem ;
-    margin-top: auto;
-    margin-bottom: auto;
 }
 
 .skillBarText{
     font-size: 0.9rem;
     font-weight: 200;
-    /* padding: 1rem 0rem; */
 }
 
 @media screen and (max-width:720px) {

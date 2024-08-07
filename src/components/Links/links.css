@@ -14,12 +14,11 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    background-color: rgb (30, 30, 30);
     
 }
 
-.linksHeader>span{
-    margin-bottom: 3rem;
+.linksHeader{
+    margin-bottom: 10%;
     font-size: 3rem;
     font-weight: 800;
 }

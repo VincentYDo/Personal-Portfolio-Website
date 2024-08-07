@@ -17,6 +17,12 @@
     width: 4rem;
 }
 
+.homepageMenu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .homepageMenuItem {
     margin: 1rem;
     cursor: pointer;
@@ -26,28 +32,3 @@
     padding-bottom: 0.5rem;
     border-bottom: 3px solid blue;
 }
-
-.homepageButton{
-    background: white;
-    color: black;
-    border: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0 1rem;
-    border-radius: 2rem;
-    margin-right: 2rem;
-}
-
-.homepageMenuImg {
-    object-fit: cover;
-    height: 1rem;
-    width: 1rem;
-    margin: 1rem;
-}
-
-.navbar>img{
-    margin-left: 2rem;
-    margin-right: 2rem;
-}
-

@@ -8,6 +8,11 @@
     margin-left: auto;
     margin-right: auto;
 }
+.linksHeader{
+    margin-bottom: 5%;
+    font-size: 3rem;
+    font-weight: 800;
+}
 
 .icons{
     display: flex;
@@ -17,13 +22,4 @@
     
 }
 
-.linksHeader{
-    margin-bottom: 10%;
-    font-size: 3rem;
-    font-weight: 800;
-}
 
-.mediaPic{
-    border-radius: 9999px;
-    
-}

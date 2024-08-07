@@ -4,8 +4,10 @@ import './footer.css'
 const Footer = () =>{
     return(
         <section className="footer">
-            <span>Hosted On AWS</span>
-            <span> Created By Vincent Do</span>    
+            <div id='headers'>
+                <span>Hosted On AWS</span>
+                <span> Created By Vincent Do</span>    
+            </div>
             <div className="footer-icons">
                 <svg width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_152_248)">

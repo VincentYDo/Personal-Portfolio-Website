@@ -24,8 +24,10 @@ const techStack = () =>{
 
 
     return(
-        <section id="techStack">    
-            <span>Languages, Frameworks, And Technologies</span>
+        <section id="techStack">   
+            <div id='title'>
+                <span >Languages, Frameworks, And Technologies</span>
+            </div>
             <Slider {...settings}>
                 <div id="cssIcon">
                     <svg width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">

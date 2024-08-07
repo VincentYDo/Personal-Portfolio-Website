@@ -23,13 +23,13 @@ const Portfolio = ()=>{
             <div className="cardsContainer">
                 <Carousel 
                 containerClass="carouselContainer"
-                showDots={true}
+                showDots={false}
                 draggable={true}
                 swipeable={true}
                 infinite={true}
-                removeArrowOnDeviceType={["tablet", "mobile"]}
+                arrows={false}
                 autoPlay={true}
-                autoPlaySpeed={3000}
+                autoPlaySpeed={2500}
                 pauseOnHover={true}
                 partialVisbile={false}
                 ssr={true}

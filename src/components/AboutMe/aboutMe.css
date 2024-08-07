@@ -9,7 +9,7 @@
     height: auto;
     max-width:65rem;
     margin : 0 auto;
-    margin-top: 10%;
+    padding-top: 10vh;
 }
 
 .aboutMeTitle {
@@ -50,6 +50,7 @@
     font-size: 0.9rem;
     font-weight: 200;
 }
+
 
 @media screen and (max-width:720px) {
     .skillBarText>p{

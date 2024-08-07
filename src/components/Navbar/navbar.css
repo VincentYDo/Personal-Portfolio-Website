@@ -4,23 +4,18 @@
     margin: 0;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     position: sticky;
     top: 0;
     z-index: 3;
     background: rgb(30, 30, 30);
 }
 
-.logo {
-    object-fit: cover;
-    height: 3rem;
-    width: 4rem;
-}
 
 .homepageMenu{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: auto auto;
 }
 
 .homepageMenuItem {

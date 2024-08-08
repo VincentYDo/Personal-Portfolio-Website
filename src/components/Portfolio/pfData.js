@@ -6,9 +6,8 @@ import websiteDesign from '../../assets/portfolioPics/websiteDesign.jpg'
 
 export const responsiveSettings = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 144 },
-      items: 2
+      items: 3
     },
     desktop: {
       breakpoint: { max: 1440, min: 800 },
@@ -20,7 +19,7 @@ export const responsiveSettings = {
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
-      items: 2
+      items: 1
     }
   };
 

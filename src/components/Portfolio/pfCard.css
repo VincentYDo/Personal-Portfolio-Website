@@ -30,10 +30,10 @@
     visibility: hidden;
     position: absolute;
     top: 0;
-    bottom: 50%;
+    bottom: 33%;
     left: 0;
     right: 0;
-    height: 50%;
+    height: 33%;
     width: 100%;
     background: grey;
     opacity: 0;
@@ -48,13 +48,12 @@
     justify-content: center;
     visibility: hidden;
     position: absolute;
-    top: 50%;
-    bottom: 25%;
+    top: 33%;
+    bottom: 33%;
     left: 0;
     right: 0;
     background: grey;
     opacity: 0;
-    /* background-color: purple; */
 }
 .techStack{
     display: flex;
@@ -63,13 +62,12 @@
     justify-content: center;
     visibility: hidden;
     position: absolute;
-    top: 75%;
+    top: 67%;
     bottom: 0;
     left: 0;
     right: 0;
     background: grey;
     opacity: 0;
-    /* background-color: green; */
 }
 
 .imgWrap:hover.imgWrap>h1{

@@ -1,14 +1,12 @@
 .card{
     border: 0cap;
     border-style: solid;
-    border-color: rgb(30, 30, 30);
     width: 50vw;
     height: 65vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     margin-right: 5vw;
-    
 }
 
 
@@ -16,7 +14,6 @@
     object-fit: contain ;
     height: 100%;
     width: 100%;
-   
 }   
 
 
@@ -26,41 +23,53 @@
     display: inline-block;
 }
 .projectTitle{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
     visibility: hidden;
     position: absolute;
     top: 0;
-    bottom: 0;
+    bottom: 50%;
     left: 0;
     right: 0;
+    height: 50%;
+    width: 100%;
     background: grey;
     opacity: 0;
-    padding-top: 5rem;
     font-size: 3rem;
-    
 }
 
 
 .projectDesc{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
     visibility: hidden;
     position: absolute;
-    top: 30%;
+    top: 50%;
+    bottom: 25%;
+    left: 0;
+    right: 0;
+    background: grey;
+    opacity: 0;
+    /* background-color: purple; */
+}
+.techStack{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    position: absolute;
+    top: 75%;
     bottom: 0;
     left: 0;
     right: 0;
     background: grey;
     opacity: 0;
-    padding-top: 5rem;
-}
-.techStack{
-    visibility: hidden;
-    position: absolute;
-    top: 55%;
-    bottom: 5rem;
-    left: 0;
-    right: 0;
-    background: grey;
-    opacity: 0;
-    padding-top: 5rem;
+    /* background-color: green; */
 }
 
 .imgWrap:hover.imgWrap>h1{

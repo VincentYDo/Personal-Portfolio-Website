@@ -24,10 +24,10 @@ const Portfolio = ()=>{
                 <Carousel 
                 containerClass="carouselContainer"
                 showDots={false}
+                arrows={false}
                 draggable={true}
                 swipeable={true}
                 infinite={true}
-                arrows={false}
                 autoPlay={true}
                 autoPlaySpeed={2500}
                 pauseOnHover={true}

@@ -29,7 +29,7 @@ const Portfolio = ()=>{
                 swipeable={true}
                 infinite={true}
                 autoPlay={true}
-                autoPlaySpeed={2500}
+                autoPlaySpeed={2000}
                 pauseOnHover={true}
                 partialVisbile={false}
                 ssr={true}

@@ -44,7 +44,7 @@ export const data = [
         techStack: ['React, ', 'JavaScript, ', 'HTML, ', 'CSS, ', 'Node.js, ', 'Express.js, ', 'MongoDB, ', 'OAuth'],
     },
     {   id:4,
-        name: 'LFG - Looking For Groups',
+        name: 'LFG',
         img: gatheredPeople,
         description: 'A web application designed to allow users to sign up for activities and receive notifications when the required number of participants is reached.',
         techStack: ['React, ', 'JavaScript, ', 'HTML, ', 'CSS, ', 'Node.js, ', 'Express.js, ','MongoDB'],

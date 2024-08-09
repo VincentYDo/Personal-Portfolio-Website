@@ -1,8 +1,7 @@
 import React, { useEffect } from "react";
 import './navbar.css';
 import {Link,animateScroll as scroll} from 'react-scroll'
-import logo from '../../assets/logo.png';
-import contactImg from '../../assets/contactMeImg.png';
+
 
 const scrollToTop = ()=>{
     scroll.scrollToTop();

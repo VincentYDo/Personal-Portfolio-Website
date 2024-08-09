@@ -2,7 +2,7 @@
     border: 0cap;
     border-style: solid;
     width: auto;
-    height: 65vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-around;

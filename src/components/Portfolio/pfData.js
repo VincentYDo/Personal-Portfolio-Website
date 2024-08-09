@@ -28,7 +28,7 @@ export const data = [
     {   id:1,
         name: 'Kafkometry',
         img: monitoring,
-        description: 'An app for monitoring Kafka Cluster Heatlh, designed with a focus on speed.',
+        description: 'An Kafka Cluster Heatlh monitoring app, designed with a focus on speed.',
         techStack: ['React, ', 'JavaScript, ', 'HTML, ', 'CSS, ', 'Node.js, ', 'Express.js, ', 'Kafka, ', 'Docker, ', 'MongoDB, ','OAuth'],
     },
     {   id:2,

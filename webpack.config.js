@@ -5,8 +5,8 @@ module.exports={
     mode: "development", 
     entry: "./index.js", 
     output: {
-        path: path.resolve(__dirname, "public"),
-        filename: "main.js"
+        path: path.resolve(__dirname, "dist"),
+        filename: "bundle.js"
     },
     target: "web",
     devServer: {
@@ -31,8 +31,8 @@ module.exports={
                 use:['file-loader'],
             },
             {
-                test:/\.(css|scss)$/,
-                use:['style-loader','css-loader']
+                test:/\.css$/i,
+                use:['style-loader','css-loader'],
             },
         ]
     },

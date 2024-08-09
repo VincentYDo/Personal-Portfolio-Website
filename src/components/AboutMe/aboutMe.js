@@ -9,7 +9,7 @@ const AboutMe = () => {
     return (
         <section id="aboutMe"> 
             <span className="aboutMeTitle">What I do</span>
-            <span className="aboutMeDescription">As a full-stack engineer, I bring expertise in React, JavaScript, HTML, CSS, Node.js, Express.js, and MongoDB. With proficiency across these technologies, I develop end-to-end solutions, integrating front-end interfaces with scalable back-end architectures. My commitment to staying updated ensures that I consistently deliver efficient and innovative software solutions.</span>
+            <span className="aboutMeDescription">As a Full-stack engineer, I bring expertise in React, JavaScript, HTML, CSS, Node.js, Express.js, and MongoDB. With proficiency across these technologies, I develop end-to-end solutions, integrating front-end interfaces with scalable back-end architectures. My commitment to staying updated ensures that I consistently deliver efficient and innovative software solutions.</span>
             <div className="aboutMeBars">
                 <div className="aboutMeBar">
                     <img className="skillBarImg" src={webDesign} alt='Web Design'></img>

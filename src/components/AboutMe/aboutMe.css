@@ -27,7 +27,7 @@
 
 .aboutMeBars{
     margin: 1.5rem;
-    width: 100vw;
+    /* width: 100vw; */
     max-width: 80%;
     text-align: left;
 }
@@ -44,30 +44,52 @@
     object-fit: cover;
     height: 5rem;
     width: 5rem;
+    margin-right: 0.5rem;
 }
 
 .skillBarText{
-    font-size: 0.9rem;
+    font-size: 1.15vw;
     font-weight: 200;
+}
+
+/* @media screen and (max-width:4000px) {
+    .skillBarText>h2{
+        font-size: 5vw;   
+    }
+    .skillBarText>p{
+        font-size: 2vw;
+    }
+} */
+
+
+@media screen and (max-width:1440px) {
+    .skillBarText>h2{
+        font-size: 2vw;   
+    }
+    .skillBarText{
+        font-size: 1.15vw;
+    }   
 }
 
 
 @media screen and (max-width:720px) {
+    .skillBarText>h2{
+        font-size: 4vw;
+    }
     .skillBarText>p{
         font-size: 2vw;
     }
 }
 
 @media screen and (max-width:480px) {
+    .skillBarText>h2{
+        font-size: 5vw;
+    }
     .skillBarText>p{
         font-size: 3vw;
     }
     .skillBarImg{
         height: 2.5rem;
         width: 2.5rem;
-    }
-    .skillBarText>h2{
-        font-size: 5vw;
-        
     }
 }

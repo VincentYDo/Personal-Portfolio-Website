@@ -12,9 +12,9 @@ const techStack = () =>{
     const settings = {
         dots: false,
         infinite: true,
-        speed: 1000,
+        speed: 2000,
         autoplay: true,
-        autoplaySpeed:1000,
+        autoplaySpeed:2000,
         slidesToShow: 7,
         slidesToScroll: 1,
         cssEase:'linear',

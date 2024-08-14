@@ -24,7 +24,7 @@ const Portfolio = ()=>{
                 <Carousel 
                 containerClass="carouselContainer"
                 showDots={false}
-                arrows={false}
+                arrows={true}
                 draggable={true}
                 swipeable={true}
                 infinite={true}

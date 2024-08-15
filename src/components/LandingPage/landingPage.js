@@ -17,7 +17,6 @@ const LandingPage = () => {
             <img src={selfie} alt='selfie' className='selfie'/>
         </section>
     )
-
 }
 
 export default LandingPage

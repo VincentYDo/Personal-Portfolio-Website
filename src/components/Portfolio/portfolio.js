@@ -6,7 +6,6 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
 const Portfolio = ()=>{
-    
     const cards = data.map(item =>(
         <PfCard 
         name={item.name} 

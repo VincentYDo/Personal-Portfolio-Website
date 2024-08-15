@@ -7,12 +7,10 @@
     padding-bottom: 3%;
     font-size: 0.75rem;
     background-color: rgb(30, 30, 30);
-    /* overflow: hidden; */
 }
 
 #headers{
     display: flex;
     flex-direction: column;
     text-align: center;
-    /* padding-bottom: 2%; */
 }

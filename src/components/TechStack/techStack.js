@@ -4,11 +4,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-
-
-
 const techStack = () =>{
-
     const settings = {
         dots: false,
         infinite: true,
@@ -19,9 +15,7 @@ const techStack = () =>{
         slidesToScroll: 1,
         cssEase:'linear',
         arrows: false,
-    
     }
-
 
     return(
         <section id="techStack">   

@@ -7,7 +7,6 @@ const scrollToTop = ()=>{
     scroll.scrollToTop();
 }
 
-
 const Navbar = ()=>{
     return (
         <nav className="navbar">

@@ -5,6 +5,8 @@
     height: auto;
     width: 100vw;
     padding-top: 10vh;
+    padding-bottom: 10vh;
+    background: rgb(30, 30, 30);
 }
 
 

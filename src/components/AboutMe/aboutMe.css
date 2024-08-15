@@ -7,9 +7,10 @@
     overflow: hidden;
     width: 100vw;
     height: auto;
-    max-width:65rem;
+    /* max-width:65rem; */
     margin : 0 auto;
     padding-top: 10vh;
+    background: rgb(30, 30, 30);
 }
 
 .aboutMeTitle {

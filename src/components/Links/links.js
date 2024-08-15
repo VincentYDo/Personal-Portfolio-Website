@@ -1,8 +1,5 @@
 import React from "react";
 import "./links.css";
-import linkedinIcon from '../../assets/linkedinIcon.jpeg'
-import githubIcon from '../../assets/githubIcon.jpeg'
-
 
 const Links = () => {
     return (

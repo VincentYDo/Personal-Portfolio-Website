@@ -6,12 +6,11 @@
     padding-top: 5%;
     padding-bottom: 3%;
     font-size: 0.75rem;
-    /* background-color: #232f3e; */
+    background-color: rgb(30, 30, 30);
 }
 
 #headers{
     display: flex;
     flex-direction: column;
     text-align: center;
-    /* padding-bottom: 2%; */
 }

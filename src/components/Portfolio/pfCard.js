@@ -2,7 +2,6 @@ import React from "react";
 import './pfCard.css';
 
 const PfCard = (props)=>{
-
     return(
         <div className="card">
             <div className={props.cardId}>
@@ -16,7 +15,6 @@ const PfCard = (props)=>{
 
         </div>
     )
-
 }
 
 export default PfCard

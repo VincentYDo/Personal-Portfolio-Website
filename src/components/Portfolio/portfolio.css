@@ -5,16 +5,15 @@
     height: auto;
     width: 100vw;
     padding-top: 10vh;
+    padding-bottom: 10vh;
+    background: rgb(30, 30, 30);
 }
-
 
 #portfolio>span{
     font-size: 3rem;
     font-weight: 800;
     padding-bottom: 5vh;
 }
-
-
 
 #carouselContainer{
     display: flex;

@@ -6,7 +6,6 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
 const Portfolio = ()=>{
-    
     const cards = data.map(item =>(
         <PfCard 
         name={item.name} 
@@ -23,7 +22,7 @@ const Portfolio = ()=>{
             <div className="cardsContainer">
                 <Carousel 
                 containerClass="carouselContainer"
-                showDots={false}
+                showDots={true}
                 arrows={false}
                 draggable={true}
                 swipeable={true}

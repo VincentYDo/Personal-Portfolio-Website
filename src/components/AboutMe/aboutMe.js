@@ -38,7 +38,7 @@ const AboutMe = () => {
                         <h2>Security Implementation</h2>
                         <p>I have employed various technologies for user authentication and security, 
                             such as bcrypt, JSON Web Tokens, and OAuth. 
-                            This approach enhances security, boosts performance, and ensures interoperability 
+                            This approach enhanced security, boosted performance, and ensured interoperability 
                             between applications.
                         </p>
                     </div>
@@ -47,8 +47,8 @@ const AboutMe = () => {
                     <div className="skillBarText">
                         <h2>Agile Adaptation</h2>
                         <p>Drawing on my expertise as a Professional Scrum Master, 
-                            I have applied agile methodology to the development of numerous applications. 
-                            This approach has facilitated greater flexibility in adapting to changing stakeholder requirements.
+                            I have applied agile methodology to the development of numerous applications 
+                            resulting in greater flexibility in adapting to changing stakeholder requirements.
                         </p>
                     </div>
                     <img className="skillBarImg" src={adaptation} alt='Agile Adaptation'></img>

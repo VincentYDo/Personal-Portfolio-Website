@@ -10,7 +10,7 @@ const techStack = () =>{
         infinite: true,
         speed: 2000,
         autoplay: true,
-        autoplaySpeed:2000,
+        autoplaySpeed:0,
         slidesToShow: 7,
         slidesToScroll: 1,
         cssEase:'linear',

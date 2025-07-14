@@ -27,3 +27,14 @@
     padding-bottom: 0.5rem;
     border-bottom: 3px solid cyan;
 }
+
+@media (max-width: 600px){
+    .homepageMenu {
+        flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    }
+
+    .homepageMenuItem {
+        margin: 0.3rem;
+        font-size: 0.9rem;
+    }
+}

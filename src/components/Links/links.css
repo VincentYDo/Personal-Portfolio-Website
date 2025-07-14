@@ -22,12 +22,29 @@
     align-items: center;   
 }
 
-#linkedinIcon:hover{
+#linkedinIcon, #githubIcon {
+    width: 200px; /* Default size */
+    height: 200px;
+    transition: transform 0.3s ease;
+}
+
+#linkedinIcon:hover, #githubIcon:hover {
     transform: scale(1.5);
 }
 
-#githubIcon:hover{
-    transform: scale(1.5);
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    #linkedinIcon, #githubIcon {
+        width: 100px; /* Smaller size for tablets */
+        height: 100px;
+    }
+}
+
+@media (max-width: 480px) {
+    #linkedinIcon, #githubIcon {
+        width: 75px; /* Even smaller size for mobile devices */
+        height: 75px;
+    }
 }
 
 

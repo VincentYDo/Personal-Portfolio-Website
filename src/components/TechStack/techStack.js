@@ -15,6 +15,20 @@ const techStack = () =>{
         slidesToScroll: 1,
         cssEase:'linear',
         arrows: false,
+        responsive: [
+            {
+                breakpoint: 900,
+                settings: {
+                    slidesToShow: 5,
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 3,
+                }
+            }
+        ]
     }
 
     return(

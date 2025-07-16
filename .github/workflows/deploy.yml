@@ -3,6 +3,7 @@ name: Deploy to S3
 on:
   push:
     branches: [ master ]  # Change if your default branch is different
+  workflow_dispatch: # allows manual trigger too
 
 permissions:
   contents: read
@@ -24,7 +25,7 @@ jobs:
 
     - name: Sync files to S3
       run: |
-        aws s3 sync . s3://your-bucket-name \
+        aws s3 sync . s3://vincentdo.me \
           --delete \
           --exclude ".git/*" \
           --exclude ".github/*" \

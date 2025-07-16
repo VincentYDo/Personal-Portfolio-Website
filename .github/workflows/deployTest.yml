@@ -1,0 +1,37 @@
+name: Dry Run Deploy Test
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:  # allows manual trigger too
+
+jobs:
+  dry-run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ secrets.AWS_REGION }}
+
+      - name: List repo files (simulate deployment)
+        run: |
+          echo "Listing files that would be deployed:"
+          find . -type f | grep -vE '(\.git|\.github)'   # lists all files except .git and workflow folder
+
+      - name: Test AWS S3 bucket access
+        run: |
+          echo "Testing access to the S3 bucket by listing contents (no changes):"
+          aws s3 ls s3://vincentdo.me
+
+      - name: Test CloudFront invalidation permission (dry run)
+        run: |
+          echo "Simulating CloudFront invalidation permission by requesting distribution info:"
+          aws cloudfront get-distribution --id ${{ secrets.DISTRIBUTION_ID }}
